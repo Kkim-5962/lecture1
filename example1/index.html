@@ -1,68 +1,129 @@
 <!-- see also https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started -->
 
-<!DOCTYPE html> 
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
-    <!-- everything that isn't content -->
-    <head>
-        <meta charset="utf-8">
-        <title>Example 1</title>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, CSS, javascript">
+    <meta name="description" content="This is the discription when we search on the internet">
+    <title>My first webpage</title>
+    
+     <!-- css -->   
+    <style>
 
-        <!-- css -->
-        <style>
-            /* uncomment to change default font */
-            } */
-                font-family: Arial, Helvetica, sans-serif;
-            } 
+        html{
+            font-family: Arial, Helvetica, sans-serif;
+        }
 
-            img {
-                width: 512px; /* set image width */
-            }
+        em {
+        color: rgb(175, 143, 2);
+        font-style: arial;
+        font-weight: bold;
+        }
 
-            #caption {
+        img {
+            width: 300px;
+            object-fit:cover;
+            border-radius: 50px;
+            float: left;
+            margin-right: 10px;
+        }
+
+        .username {
+            font-weight: bold;
+            font-size: x-large;
+            font-style: normal;
+        }
+
+        #caption {
                 display: none; /* start with caption hidden */
                 font-style: italic;
-            }
-        </style>
-    </head>
+        }
+    </style>
+</head>
+
 
     <!-- content -->
-    <body>
-        <!-- some text and links -->
-        <p>
-            <a href="https://commons.wikimedia.org/wiki/File:Black_hole_-_Messier_87_crop_max_res.jpg">Event Horizon Telescope, uploader cropped and converted TIF to JPG</a>, <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>, via Wikimedia Commons
-        </p>
+<body>
+    <!-- Hyperlinks-->
+    <a href="#section-css">CSS</a>
+
+    <h1>MY FIRST WEBPAGE</h1>
+
+
+    <p>I'd <em>love</em> to go to the <em>Moon</em>!!
+    <p>I'd <em>love</em> to go to the &lt;SUN&gt;!! &copy;
+    </p>
+    <p>Lorem ipsum dolor sit&nbsp;amet consectetur, adipisicing elit. Ipsam, velit sapiente! Non eveniet nisi doloribus velit vel. Culpa repellat, modi nostrum porro necessitatibus quod consequatur ea dolorum possimus laborum quis.</p>
+    
+    <!-- Hyperlinks photo-->
+    <a href="about.html"><!--aboutme-->
+        <img src="images/photo.jpg" width= 100px; alt="My photo">
+    </a> 
+
+    <!--1st part-->
+    <h2>1.MY PRESENTATION</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, veritatis, explicabo doloremque ab nihil voluptatem nesciunt nulla obcaecati, ipsam repellendus quia temporibus voluptates! Et deserunt, rerum odio a qui consequuntur est cumque, quod illum eius, aperiam error cupiditate molestias fuga possimus dolor. Dolorem voluptates officiis esse ducimus exercitationem iste ex odio quidem eos dolores provident cupiditate repellendus reiciendis nam eius, laudantium facere ab ea? Quasi facere minus quia ea, voluptatum, assumenda, illum eius unde repellendus minima aliquid veniam eum voluptate ut dicta nobis quam dignissimos. Nesciunt rem ut recusandae! Autem accusantium, rem consectetur omnis similique deserunt sit dicta. Voluptatibus explicabo nemo corrupti consectetur ex iure fuga et porro, modi expedita error inventore totam veritatis dolore ipsum suscipit aliquid minima ullam? Pariatur non nemo dicta inventore corrupti, rem atque, corporis reiciendis odit aliquid cumque? Laboriosam blanditiis, incidunt a, numquam dolorum aut corrupti asperiores consequuntur illo voluptatibus velit, vitae nisi sequi pariatur doloremque sunt labore quaerat ducimus impedit aspernatur nemo ipsa dignissimos similique magni? Illo eum itaque ut earum, distinctio voluptatem ea enim voluptatum maxime! Quis iure illo repellendus laboriosam architecto? Blanditiis aspernatur dolor, ratione similique iure aliquam quaerat reprehenderit. Dolorem incidunt culpa amet quidem consequuntur tempore consectetur placeat quasi quisquam repellendus.
+    </p>
+    <h3>My interests</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem mollitia dolore voluptate, eligendi in tenetur tempora blanditiis aliquid facere quidem nam ratione ab. Magnam, a quasi laborum at sapiente nam consequatur corrupti! Animi debitis modi expedita eaque facilis magni, veniam fuga tenetur dolores voluptate odit quod. Veritatis animi optio quod?
+    </p>
+    <h3>Careers</h3>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, repellendus? Autem unde, ea nesciunt aspernatur veritatis repellat tempora at rem eius non, quisquam consequuntur sunt deserunt quas asperiores provident eos eaque porro laborum ipsa obcaecati ipsam minus. Nemo perferendis veritatis consequatur corrupti est consectetur sint vitae, ipsa, omnis dolorem impedit reiciendis exercitationem voluptatibus voluptatum velit non animi architecto officiis possimus eligendi? Perferendis similique minus quaerat illo itaque ipsam omnis magni dolorum consectetur tempore? Earum deserunt optio aperiam sit tenetur dolore ratione esse suscipit voluptatum fugit minus perferendis reiciendis vitae, accusantium unde illum. Necessitatibus similique qui, placeat vero architecto officia id.
+    
+    <!--Hyperlinks site-->
+    <a href="https://bib-innolab.com/" target="_blank">Find out more about our works</a>
+    <a href="mailto:kimkyung83@hotmail.com">Email Me</a>
+
+
+    <!--2nd part-->
+    <h2 id="section-css">Moon Village project</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam quos enim, porro corporis veritatis consectetur nostrum numquam quae hic delectus quo, non voluptas ad qui possimus reprehenderit modi? Quod culpa vitae, quasi obcaecati enim error impedit, maiores iste dolorem autem quo distinctio, sequi necessitatibus dolorum nisi? Fugit, consequatur. Iure adipisci ea asperiores fuga aperiam porro odio libero reprehenderit natus quisquam odit nesciunt, numquam, dicta quae laborum voluptas, quidem alias pariatur illo. Adipisci velit doloremque non facere rerum ipsa similique minus qui quaerat dolorem. Quidem labore fuga ullam, asperiores quasi ipsa nisi in porro eum provident tempora dolores explicabo. Mollitia quam dolorum culpa, totam unde officiis distinctio numquam aspernatur voluptatem beatae odio minima sint possimus, repellat amet molestiae fuga? Sint aut rem sed beatae dignissimos quos culpa deserunt odio quisquam. Quaerat tempora distinctio ab nisi consectetur fuga ad optio reiciendis et inventore ipsum quos, esse enim temporibus quae beatae repellat fugit doloribus, voluptatibus itaque molestiae repellendus asperiores velit? Voluptatum fuga assumenda ipsam minus fugit harum rem illum illo quos molestiae nam et placeat deleniti at similique adipisci sit dolores impedit, expedita corporis ad. Expedita laborum totam nihil mollitia quibusdam fugit tempore, exercitationem tenetur ratione architecto perferendis, consectetur illum nesciunt illo impedit!  
+    </p>
+ 
+    <a href="company/about2.html"></a> <!-- different folder-->
+
+    <img src="images/MoonLibrration.gif" alt="An image of Moon Libration">
+    <img id="myImage" 
+         alt="My analyse for the constraints to settle down on the Moon"
+         src="images/RAPPORT DE PFE 2018_A5_eng_NO COVER.jpg" >
+    <img id="myImage2" 
+         alt="My analyse for the constraints to settle down on the Moon"
+         src="images/RAPPORT DE PFE 2018_A5_eng_NO COVER2.jpg" >
+
+    <!-- a caption -->
+    <p id="caption">
+        Here is the previous analyse of the southpole of the Moon. Analyse will be used to find out solutions for a future project.
+    </p>
+    
+    <!-- javascript -->
+    <script type="application/javascript">
+        //get reference to html elements
+        const img = document.getElementById('myImage')
+        const img2 = document.getElementById('myImage2')
         
-        <!-- an image -->
-        <img id="myImage"
-             alt="Black hole - Messier 87 crop max res"
-             src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Black_hole_-_Messier_87_crop_max_res.jpg/1024px-Black_hole_-_Messier_87_crop_max_res.jpg">
-
-        <!-- a caption -->
-        <p id="caption">
-            The Event Horizon Telescope (EHT) — a planet-scale array of eight ground-based radio telescopes forged through international collaboration — was designed to capture images of a black hole. In coordinated press conferences across the globe, EHT researchers revealed that they succeeded, unveiling the first direct visual evidence of the supermassive black hole in the centre of Messier 87 and its shadow.
-        </p>
-
-        <!-- javascript -->
-        <script type="application/javascript">
-            // get reference to html elements
-            const img = document.getElementById('myImage')
-
-            // listen to events related to the image
-            img.addEventListener('mouseover', mouseOver, false)
-            img.addEventListener('mouseout', mouseOut, false)
-
-            // define what happens when there is a mouse over event
-            function mouseOver() {
-                document.getElementById('caption').style.display = 'block';
-            }
-
-            // define what happens when there is a mouse out event
-            function mouseOut() {
-                document.getElementById('caption').style.display = 'none';
-            }
+        //listen to events related to the image
+        img.addEventListner('mouseover', mouseOver, false)
+        img.addEventListner('mouseout', mouseOut, false)
+        img2.addEventListner('mouseover', mouseOver, false)
+        img2.addEventListner('mouseout', mouseOut, false)
+        
+        //define mouse over event
+        function mouseOver() {
+            document.getElementById('caption').style.display = 'block';
+        }
+        
+        // Define Mouse out event
+        function mouseOut() {
+            doicument.getElementById('caption').style.display='none';
+        }
         </script>
 
-        <!-- the end -->
-    </body>
+<p class="username">@KIM Kyunghwan</p>
+<a href="#">Jump to Top Menus</a>
+   <!-- the end -->
+</body>
+
 </html>
