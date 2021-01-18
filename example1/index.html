@@ -105,10 +105,10 @@
         const img2 = document.getElementById('myImage2')
         
         //listen to events related to the image
-        img.addEventListner('mouseover', mouseOver, false)
-        img.addEventListner('mouseout', mouseOut, false)
-        img2.addEventListner('mouseover', mouseOver, false)
-        img2.addEventListner('mouseout', mouseOut, false)
+        img.addEventListener('mouseover', mouseOver, false)
+        img.addEventListener('mouseout', mouseOut, false)
+        img2.addEventListener('mouseover', mouseOver, false)
+        img2.addEventListener('mouseout', mouseOut, false)
         
         //define mouse over event
         function mouseOver() {
@@ -117,7 +117,7 @@
         
         // Define Mouse out event
         function mouseOut() {
-            doicument.getElementById('caption').style.display='none';
+            document.getElementById('caption').style.display='none';
         }
         </script>
 
